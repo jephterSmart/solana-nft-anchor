@@ -1,0 +1,18 @@
+[toolchain]
+
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+solana_nft_anchor = "24MPBmtVxt5kUeCRjqhKi8evVQs7ACCLY6xMAgBwKzgB"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/oghenekarouzezi/Documents/web3/learning/solana/tokens/solana-nft-anchor/kBNoW8gnsPwsfnpfDm8oVmPJ5uANha32fadNoWn6iao.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
